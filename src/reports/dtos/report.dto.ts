@@ -21,6 +21,9 @@ export class ReportDto {
   mileage: number;
 
   @Expose()
+  approved: boolean;
+
+  @Expose()
   lat: number;
 
   @Expose()
