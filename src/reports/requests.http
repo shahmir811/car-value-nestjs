@@ -20,3 +20,6 @@ Content-Type: application/json
     "approved": true
 }
 
+
+# Get an estimate of existing vehicle
+GET http://localhost:3000/reports?make=Toyota&model=Camry&year=2020&mileage=10000&lat=40.7128&lng=-74.0060

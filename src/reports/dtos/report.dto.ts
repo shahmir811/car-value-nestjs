@@ -29,7 +29,7 @@ export class ReportDto {
   @Expose()
   lng: number;
 
-  @Transform(({ obj }) => obj.user.id)
+  @Transform(({ obj }) => (obj.user ? obj.user.id : null))
   @Expose()
   userId: number;
 
