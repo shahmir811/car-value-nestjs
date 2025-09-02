@@ -8,7 +8,7 @@ import {
   Query,
   UseGuards,
 } from '@nestjs/common';
-import { Serialize } from 'src/interceptors/serialize.interceptor';
+import { Serialize } from '../interceptors/serialize.interceptor';
 import { CurrentUser } from '../users/decorators/current-user.decorator';
 import { AdminGuard } from '../users/guards/admin.guard';
 import { AuthGuard } from '../users/guards/auth.guard';
